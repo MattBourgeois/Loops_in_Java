@@ -8,9 +8,9 @@ public class Main {
             double interestAmount = calculateInterest(10000.0, rate);
             System.out.println("10,000 at " + rate + "% interest = " + interestAmount);
         }
-        for(double rate = 7.5; i <=10;  i += 0.25){
+        for(double i = 7.5; i <=10;  i += 0.25){
             double interestAmount = calculateInterest(100.0, i);
-            System.out.println("$100.00 " + 1 "% interest = $" + interestAmount);
+            System.out.println("$100.00 " + i + "% interest = $" + interestAmount);
         }
     }
         public static double calculateInterest ( double amount, double interestRate){
